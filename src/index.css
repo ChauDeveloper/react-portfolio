@@ -1,3 +1,15 @@
+:root {
+  --background-color: #E4E4E4;
+  --text-color: #535353;
+  --secondary-text-color: #DDDDD9;
+  --box-fill-color: #555555,
+}
+
+html, body { 
+  height: 100%; 
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +17,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  font-family:Andale Mono, monospace ;
+  display: flex; 
+  flex-direction: column;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
