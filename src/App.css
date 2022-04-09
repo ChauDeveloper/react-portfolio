@@ -1,5 +1,6 @@
-
-
+.App {
+  height: 100%;
+}
 #title {
   font-family: 'Righteous', cursive;
   color: var(--text-color);
@@ -7,5 +8,8 @@
   padding: 0vw 2vw 2vw 2vw;
   font-size: 3vw;
 }
+
+
+
 
 

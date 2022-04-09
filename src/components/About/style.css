@@ -1,0 +1,20 @@
+#about-section{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+     gap: 1.5vw;
+    top: 10vw;
+    left: 16vw; 
+}
+
+#about-text p{
+    color: var(--text-color);
+    margin-bottom: 3vw;
+    line-height: 2.5vw;
+    font-size: 2vw;
+}
+
+#profile-img img{
+  width:25vw;
+  margin-top:6vw;
+}
