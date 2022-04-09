@@ -1,0 +1,30 @@
+ul {
+    position: relative;
+    list-style-type: none;
+}
+
+ul li{
+    padding-bottom: 6vw;
+    margin-left:0;
+    padding-left: 0;
+    border: 0;
+  }
+
+  ul li a {
+    position: absolute;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 1vw 1vw 1vw 3vw;
+    left: 0;
+    font-size: 1.7vw;
+   
+    font-weight: 900;
+  }
+
+ul li:hover {
+    left:0;
+}
+  ul li a:hover {
+    background-color: var(--box-fill-color);
+    color: var(--secondary-text-color);
+  }

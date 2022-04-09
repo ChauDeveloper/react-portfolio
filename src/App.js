@@ -5,9 +5,9 @@ import Footer from './components/footer';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div className="App"> 
       <h1 id='title'>Chau Nguyen</h1>
+      <Navbar />
       <Footer />
     </div>
   );
