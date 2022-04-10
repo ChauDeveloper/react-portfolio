@@ -24,7 +24,13 @@ ul li{
 ul li:hover {
     left:0;
 }
-  ul li a:hover {
+
+ul li a:hover {
+  background-color: var(--box-fill-color);
+  color: var(--secondary-text-color);
+}
+
+ul li a:target{
     background-color: var(--box-fill-color);
     color: var(--secondary-text-color);
   }
