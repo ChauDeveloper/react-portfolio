@@ -4,10 +4,10 @@ import './style.css'
 function Navbar() {
     return (
         <ul id="navbar">
-            <li><a href="default.asp">About Me</a></li>
-            <li><a href="news.asp">Portfolio</a></li>
-            <li><a href="contact.asp">Resume</a></li>
-            <li><a href="about.asp">Contact</a></li>
+            <li><a href="/">About Me</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/resume">Resume</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     );
 }
