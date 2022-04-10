@@ -1,0 +1,34 @@
+#portfolio {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     gap: 1.5vw;
+    top: 5vw;
+    left: 16vw; 
+}
+
+.image{
+    width:40vw;
+    background-color: black;
+}
+
+
+
+#project-name {
+    text-decoration: none;
+    color:var(--background-color);
+}
+
+#project-name h5 {
+    background-color:var(--box-fill-color);
+    padding: 0.5vw;
+    text-align: center;
+}
+
+
+.image:hover {
+    opacity: 0.5;
+}
+#project-name h5:hover {
+    background-color:#838383;
+}

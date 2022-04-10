@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       
       <div>
       <Navbar />
-      <About />
+      {/* <About /> */}
+      <Portfolio />
       </div>
 
       <Footer />
