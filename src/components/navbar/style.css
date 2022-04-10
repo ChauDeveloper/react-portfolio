@@ -30,7 +30,7 @@ ul li a:hover {
   color: var(--secondary-text-color);
 }
 
-ul li a:target{
+.active{
     background-color: var(--box-fill-color);
     color: var(--secondary-text-color);
   }

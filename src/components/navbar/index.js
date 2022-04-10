@@ -1,18 +1,21 @@
-import React from 'react';
-import './style.css'
 
-function Navbar(props) {
-    const {
-        aboutSelected,
-        setAboutSelected
-    } = props;
+import React from 'react';
+import './style.css';
+import {NavLink} from 'react-router-dom';
+
+
+
+
+function Navbar() {
+  
+
 
     return (
         <ul id="navbar">
-            <li><a href="/" >About Me</a></li>
-            <li><a href="/portfolio" >Portfolio</a></li>
-            <li><a href="/resume" >Resume</a></li>
-            <li><a href="/contact" >Contact</a></li>
+            <li className="item"><NavLink to={"/"} exact={true}>About Me</NavLink></li>
+            <li className="item"><NavLink to={"/portfolio"}>Portfolio</NavLink></li>
+            <li className="item"><NavLink to={"/resume"}>Resume</NavLink></li>
+            <li className="item"><NavLink to={"/contact"}>Contact</NavLink></li>
         </ul>
     );
 }
