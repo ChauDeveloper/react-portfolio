@@ -3,7 +3,7 @@ import './style.css'
 
 function Navbar() {
     return (
-        <ul>
+        <ul id="navbar">
             <li><a href="default.asp">About Me</a></li>
             <li><a href="news.asp">Portfolio</a></li>
             <li><a href="contact.asp">Resume</a></li>

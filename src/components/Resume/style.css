@@ -1,0 +1,70 @@
+#resume {
+    position: absolute;
+    top: 7vw;
+    left: 30vw; 
+    color:var(--text-color);
+    font-size: 1.3vw;
+}
+
+#resume h2{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+
+#skills{
+    margin-bottom: 2vw;
+}
+#skill-list {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+     gap: 1.5vw;
+}
+
+#skill-list ul{
+    list-style-type: none;
+}
+
+#left-list {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
+
+#right-list {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+}
+
+
+#skill-list ul li {
+    padding:0vw 0vw 1vw 0vw;
+}
+
+#education{
+    margin-bottom: 3vw;
+}
+#education ul li {
+    padding:0vw 0vw 1vw 0vw;
+}
+
+#soft-skill-list {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+     gap: 1.5vw;
+}
+
+#soft-skill-list ul{
+    list-style-type: none;
+}
+
+#soft-skill-list ul li{
+    padding: 0vw 0vw 1vw 0vw;
+}
+
+#download {
+   text-align: center;
+   margin: 3vw 2vw 10vw 2vw;
+}
+#download i {
+    font-size: 2.3vw;
+}
