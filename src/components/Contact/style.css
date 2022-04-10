@@ -1,0 +1,54 @@
+#contact-form{
+    position: absolute;
+    top: 10vw;
+    left: 40vw; 
+    color:var(--text-color);
+    font-size: 1.5vw;
+}
+
+#contact-form h1{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 4vw;
+    font-size: 4vw;
+}
+
+.row {
+    margin-bottom: 2vw;
+}
+
+.row label{
+    text-align: center;
+}
+
+.row input {
+    border: 0;
+    color:#2b2b2b;
+    background-color: #d1d1d1;
+}
+
+.row input:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+    background-size: 25px; 
+}
+
+.row textarea {
+    border: 0;
+    background-color: #d1d1d1;
+}
+
+.row textarea:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
+    background-size: 25px; 
+}
+
+#contact-form button {
+    background-color: var(--box-fill-color);
+    color:var(--background-color);
+    align-items: center;
+    font-size: 2vw;
+    margin-left: 13vw;
+    padding:1vw;
+    border: none;
+    border-radius: 15px;
+}
