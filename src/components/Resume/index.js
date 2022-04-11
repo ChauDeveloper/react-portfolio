@@ -13,7 +13,7 @@ function Resume() {
                         <li>HTML</li><li>CSS</li><li>Javascript</li><li>Node.js</li>
                     </ul>
                     <ul>
-                        <li>••••••••◦◦</li><li>••••••••◦◦</li><li>••••••◦◦◦◦</li><li>•••••◦◦◦◦◦</li>
+                        <li>••••••••◦◦</li><li>••••••••◦◦</li><li>••••◦◦◦◦◦◦</li><li>•••••◦◦◦◦◦</li>
                     </ul>
                     </div>
 

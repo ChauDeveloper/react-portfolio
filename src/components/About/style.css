@@ -2,8 +2,7 @@
     position: absolute;
     display: grid;
     grid-template-columns: 2fr 1fr;
-     gap: 1.5vw;
-    top: 10vw;
+    top: 15vw;
     left: 16vw; 
 }
 
@@ -16,5 +15,34 @@
 
 #profile-img img{
   width:25vw;
-  margin-top:6vw;
+  margin-top: -3vw;
 }
+
+/* .first-element{
+
+}
+
+.second-element{
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5vw;
+  color:rgb(222, 0, 0);
+}
+
+.third-element{
+
+}
+
+#hi{
+  font-size: 5vw !important;
+  font-family: 'Pacifico', cursive;
+  color:rgb(213, 175, 23) !important;
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+#chau {
+  font-family: 'Pacifico', cursive;
+  color:#FE3A30 !important;
+  background-color: #00A9DD;
+  font-size: 3.5vw;
+} */

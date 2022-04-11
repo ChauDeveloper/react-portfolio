@@ -1,14 +1,16 @@
 import React from 'react';
 import './style.css'
-import Profile from '../../assets/images/profile.png'
+import Profile from '../../assets/images/profile.JPG'
 
 function About() {
     return (
        <div id="about-section">
 
           <div id="about-text">
-            <p>Donut oat cake jujubes shortbread dessert pastry donut marzipan sweet roll. I love halvah tootsie roll jujubes cookie. Jujubes soufflé jelly sweet roll caramels cupcake. Oat cake danish sweet roll pie donut.</p> 
-            <p>I love biscuit bear claw caramels chocolate cake topping jujubes. Carrot cake tootsie roll cake tiramisu muffin. Biscuit ice cream jelly-o tiramisu cake sweet. Chocolate cake cheesecake jujubes lemon drops sugar plum brownie biscuit lemon drops.</p>
+            <p class="first-element" id="hi">Hi, </p>
+            <p>My name is <span id="chau">Chau </span>and I’m a <span class="second-element">Front End Web Developer.</span></p> 
+            <p>I’m a <span class="third-element">musician</span>, a <span class="second-element">designer</span>, a <span class="first-element">Zumba instructor</span>, a <span class="third-element">jewelrer</span> and a <span class="first-element">Mom.</span> </p>
+            <p>My favorite words are inspiring, positive, creative, uplifting, consistent, courage, kind, brave, strong, self-motivating</p>
           </div>
 
           <div id="profile-img">
