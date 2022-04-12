@@ -1,48 +1,142 @@
+
 #about-section{
+  /* background-color: #f8b500; */
+  cursor:default;
     position: absolute;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    top: 15vw;
+    grid-template-columns: 1.2fr 1fr;
+    top: 10vw;
     left: 16vw; 
+   
 }
 
 #about-text p{
     color: var(--text-color);
-    margin-bottom: 3vw;
-    line-height: 2.5vw;
-    font-size: 2vw;
+    margin-bottom: 2vw;
+    line-height: 2vw;
+    font-size: 1.5vw;
 }
 
 #profile-img img{
-  width:25vw;
+  max-width:25vw;
+  height: auto;
   margin-top: -3vw;
+  border-radius: 15px;
 }
 
-/* .first-element{
-
-}
-
-.second-element{
-  font-family: 'Pacifico', cursive;
-  font-size: 2.5vw;
-  color:rgb(222, 0, 0);
-}
-
-.third-element{
-
-}
 
 #hi{
-  font-size: 5vw !important;
+  font-size: 4vw !important;
   font-family: 'Pacifico', cursive;
-  color:rgb(213, 175, 23) !important;
-  animation: bounce;
+  color:#FF7756 !important;
+  animation: shakeY;
   animation-duration: 2s;
 }
 
-#chau {
+#chau{
   font-family: 'Pacifico', cursive;
-  color:#FE3A30 !important;
-  background-color: #00A9DD;
-  font-size: 3.5vw;
-} */
+  font-size: 2.5vw;
+  color:#8AD9D6 !important;
+} 
+#front-end {
+  color: #efebe0;
+  background-color: #837a7582;
+  border-radius: 15px;
+  padding: 0vw 1vw 0vw 1vw;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5vw;
+}
+#musician, #designer, #zumba, #jewelrer, #mom {
+  transition: 0.2s ease-in-out;
+}
+#musician:hover {
+  background-color: black;
+  color:white;
+  padding: 0.5vw;
+}
+
+#designer:hover {
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  padding: 0.5vw;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2vw;
+  border-radius: 25px;
+}
+
+#zumba:hover{
+  background-color: greenyellow;
+  color: black;
+  padding: 0.5vw;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#jewelrer:hover {
+  background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500);
+  color:rgb(79, 39, 4);
+  padding: 0.5vw;
+  text-shadow: 0.5vw black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2vw;
+  border-radius: 25px;
+}
+
+#mom:hover {
+  background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+  color:white;
+  font-family: 'Pacifico', cursive;
+  padding: 0.5vw;
+  border-radius: 15px;
+}
+
+#wrapper{
+  /* display: flex; */
+}
+#wrapper #static-txt{
+  color: var(--text-color);
+  font-size: 1.4vw;
+}
+#wrapper #dynamic-txts{
+  font-family: 'Pacifico', cursive;
+  height: 2vw;
+  line-height: 1vw;
+  padding-left:0;
+  padding-bottom: 5vw;
+  margin-left:15vw;
+  overflow: hidden;
+}
+#dynamic-txts li{
+  list-style: none;
+  color:rgb(255, 140, 0);
+  font-size: 3vw;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -35vw;
+  }
+}
+#dynamic-txts li span{
+  position: relative;
+  /* margin: 1vw 0; */
+  line-height: 3vw;
+}
+#dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--background-color);
+  border-left: 2px solid #6d87fc;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 1vw);
+  }
+  100%{
+    left: 0;
+  }
+}
