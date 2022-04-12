@@ -1,5 +1,6 @@
 import React from 'react';
-import './style.css'
+import './style.css';
+import ResumeFile from '../../assets/images/Resume.png';
 
 function Resume() {
     return (
@@ -51,7 +52,9 @@ function Resume() {
            </div>
 
             <div id="download">
+            <a href={ResumeFile} download>   
            <i className="fa-solid fa-file-arrow-down"></i><p>Download my Resume</p>
+           </a>
            </div>
 
        </div>

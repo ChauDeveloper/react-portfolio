@@ -24,7 +24,6 @@
   border-radius: 15px;
 }
 
-
 #hi{
   font-size: 4vw !important;
   font-family: 'Pacifico', cursive;
@@ -36,6 +35,9 @@
 #chau{
   font-family: 'Pacifico', cursive;
   font-size: 2.5vw;
+  -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: rgb(0, 0, 0);
+letter-spacing: 0.3vw;
   color:#8AD9D6 !important;
 } 
 #front-end {
@@ -46,6 +48,8 @@
   font-family: 'Pacifico', cursive;
   font-size: 2.5vw;
 }
+
+
 #musician, #designer, #zumba, #jewelrer, #mom {
   transition: 0.2s ease-in-out;
 }

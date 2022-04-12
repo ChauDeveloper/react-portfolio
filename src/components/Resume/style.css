@@ -65,6 +65,14 @@
    text-align: center;
    margin: 3vw 2vw 10vw 2vw;
 }
+#download a{
+    text-decoration: none;
+    color:var(--text-color)
+}
+#download a:hover {
+    color:rgb(162, 162, 162);
+   
+}
 #download i {
     font-size: 2.3vw;
 }
