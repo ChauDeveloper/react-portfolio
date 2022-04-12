@@ -1,34 +1,74 @@
 #portfolio {
     position: absolute;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-     gap: 1.5vw;
+    grid-template-columns: 1fr 1fr 1fr;
+     /* gap: 1.5vw; */
     top: 5vw;
     left: 16vw; 
 }
 
-.image{
-    width:40vw;
-    background-color: black;
+#project {
+    position: relative;
 }
 
+.image{
+    position:relative;
+    width:27vw;
+    height:15vw;
+    padding:0.1vw;
+    z-index: 50 ;
+    transition: 0.5s ease-in-out;
+    
+}
+
+#description{
+    position: absolute;
+    top:0%;
+    font-size: 0.8vw;
+    padding:0.2vw;
+    z-index: 20 ;
+    width:27vw;
+    height:15vw;
+    padding:0.5vw;
+    background-color: rgb(65, 65, 65);
+    color:var(--background-color);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
 
 #project-name {
-    text-decoration: none;
-    color:var(--background-color);
+    /* position: absolute;
+    top:0;
+    left:0; */
+  
+    text-decoration: underline;
+    color:var(--text-color);
+  
 }
 
 #project-name h5 {
-    background-color:var(--box-fill-color);
+    /* background-color:var(--box-fill-color); */
     padding: 0.5vw;
     text-align: center;
 }
 
 
+
+
 .image:hover {
-    opacity: 0.5;
+    
+    opacity: 0.01;
 }
+
+#project-name:hover {
+    text-decoration: none ;
+
+}
+
 #project-name h5:hover {
     background-color:#838383;
+    color: var(--background-color)
+    
 }

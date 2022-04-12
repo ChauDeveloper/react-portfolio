@@ -45,6 +45,7 @@ function Portfolio() {
         <div id='portfolio'>
             {photos.map((data, i) => (
             <div id='project'>    
+            
                <a href={data.link} target="_blank">
                 <img
                 src={require(`../../assets/images/portfolio/${i}.png`)}
@@ -53,9 +54,11 @@ function Portfolio() {
                 key={data.name}
               /></a>
 
-
+                
             <a href={data.GitHub} target="_blank" id="project-name"><h5>{data.name}</h5></a>
+            <p id="description">{data.description}</p>
               </div>
+              
                 ))}
                
           
